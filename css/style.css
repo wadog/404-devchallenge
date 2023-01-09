@@ -1,0 +1,101 @@
+body {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+header {
+    font-family: 'Inconsolata';
+}
+
+header h1 {
+    font-weight: 700;
+    font-size: 20px;
+    padding: 10px;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.hero {
+    position: relative;
+    font-family: "space mono";
+    height: 100vh;
+
+}
+
+.img {
+    position: absolute;
+}
+
+.imagen {
+    height: 90vh;
+}
+
+.text {
+    position: absolute;
+    right: 0;
+    width: 50%;
+}
+
+.text h1 {
+    font-weight: 700;
+    font-size: 64px;
+}
+
+.text p {
+    width: 320px;
+    padding-left: 10px;
+    letter-spacing: 1px;
+}
+
+.text button {
+    font-family: "space mono";
+    text-transform: uppercase;
+    width: 200px;
+    height: 60px;
+    margin-top: 30px;
+    background-color: #92E3A9;
+}
+
+footer {
+    position: absolute;
+    background-color: #DEF7E5;
+    text-align: center;
+    font-family: "space mono";
+    width: 100%;
+}
+
+footer span {
+    font-weight: 700;
+}
+
+a {
+    color: #ADADAD;
+}
+
+@media (max-width: 600px) {
+    .imagen {
+        height: 55vh;
+    }
+
+    .text {
+        text-align: center;
+        width: 100%;
+        top: 300px;
+    }
+
+    .text h1 {
+        font-size: 32px;
+    }
+
+    .text p{
+        width: 320px;
+        padding: 0;
+    }
+
+    footer{
+        font-size: 14px;
+        top: 700px;
+    }
+}
