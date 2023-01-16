@@ -26,12 +26,8 @@ header h1 {
 
 .img {
     position: absolute;
+    width: 50%;
 }
-
-.imagen {
-    height: 90vh;
-}
-
 .text {
     position: absolute;
     right: 0;
